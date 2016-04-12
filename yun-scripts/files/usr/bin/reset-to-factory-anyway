@@ -4,6 +4,4 @@ blink-start 100
 
 reset_has_fo=true
 
-yes | /sbin/firstboot
-
-/sbin/reboot
+/sbin/jffs2reset -y && /sbin/reboot
